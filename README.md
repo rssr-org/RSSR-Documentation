@@ -27,6 +27,7 @@ RSSR is a SSR boilerplate for React js and contian:
 
 ### Run as Development
 1. Run `npm i` (install npm packages)
+2. Run `npm run api` for fake api (NOTICE: in real projects you must remove fake api structure and there is no need to execute this)
 2. Run `npm run dev` (start running project for development)
 3. stay for initial build to can see App over`localhost:8000` (App will be opened in browser automatically).
 
