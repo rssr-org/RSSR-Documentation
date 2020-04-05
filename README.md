@@ -1,20 +1,10 @@
+<div align="left">
+  <a href="https://github.com/rssr-org/RSSR">
+    <img width="200" src="https://raw.githubusercontent.com/rssr-org/RSSR/master/public/asset/img/rssr-logo.png">
+  </a>
+</div>
 
-# Documentation
-document of RSSR (React Server Side Rendering) Boilerplate. 
-
-## Table of Contents
-- [General](general)
-  - [**CLI Commands**](general/commands.md)
-  - [Introduction ](general/introduction.md)
-  - [Tool Configuration](general/files.md)
-- [JS](js)
-  - [Trim-Redux](js/trim-redux.md)
-- [Styling (CSS)](css/README.md)
-  - [Stylesheet](css/README.md#stylesheet)
-  - [Sass](css/README.md#sass)
-- [Testing](testing)
-
-## Overview
+## Features
 RSSR is a SSR boilerplate for React js and contian:
 - SSR (Server Side Rendering)
 - User Authentication Structure
@@ -22,8 +12,11 @@ RSSR is a SSR boilerplate for React js and contian:
 - SCSS Style Namespace
 - and more …
 
-## Usage Tips
-- run commands at root of project.
+## Quick start
+- Make sure that you have Node.js v10.13.0 and npm v6 or above installed.
+- Clone repo using `git clone https://github.com/rssr-org/RSSR.git <YOUR_PROJECT_NAME>`
+- Move to your local directory: `cd <YOUR_PROJECT_NAME>`
+- Select one of the following instructions based on your environment
 
 ### Run as Development
 1. Run `npm i` (install npm packages)
@@ -50,18 +43,19 @@ in real project you must remove fakeApi.
 - `npm run up-low`, mix of delete available process and `npm run start-pm2-low` (once CPU core)
 - `npm run up`,like `npm run up-low` but over all CPU core (Recommend for Main production)  
 
-
-## Structure
-### CSS
-See the [CSS documentation](css/README.md) for more information.
-
-### JS
-See the [JS documentation](js/README.md) for more information about the
-JavaScript side of things.
-
-### SEO
-We use [react-helmet](https://github.com/nfl/react-helmet) for managing document head tags. Examples on how to
-write head tags can be found [here](https://github.com/nfl/react-helmet#examples).
-Also we use [rssr-seo-optimization](https://github.com/rssr-org/rssr-seo-optimization) that redirect domains starting with www to non-www and remove slash at the end of URL for improve SEO
-
-### Testing
+# Documentation
+- [General](general)
+  - [Installation](#)
+  - [Folder Structure](general/folder_structure.md)
+  - [CLI Commands](general/commands.md)
+  - [Introduction ](general/introduction.md)
+  - [Tool Configuration](general/files.md)
+- [CSS](css/README.md)
+- [JS](js/README.md)
+  - [Trim-Redux](./trim-redux.md)
+  - [Routing](./routing.md)
+- [Styling (CSS)](css/README.md)
+  - [Stylesheet](css/README.md#stylesheet)
+  - [Sass](css/README.md#sass)
+- [SEO](seo/README.md)
+- [Testing](testing)
