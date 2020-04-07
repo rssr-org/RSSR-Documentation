@@ -1,4 +1,4 @@
-# RSSA
+# RSSR
 
 # Rule
 
@@ -39,7 +39,7 @@ This is our starting point, which includes basic settings.
 
 - `provider/webpack`: This folder contains webpack configuration 
 
-- `provider/setup`: 
+- `provider/setup`:Contains methods and additional operations of the provider section 
 
 
 ### `public/`
@@ -99,6 +99,14 @@ It doesn't have Entity directory and isolated with their behvior, in fact to mak
 
 ## `__Component` Directory:
 `__Component` is used when a component is same in multiple container, we can solve the issue by creating `__Component` in the first parent of that directory to handle duplicate component.
+
+## Expansion of Entity
+
+| **_Musts_**         | **_Exceptions_**    | 
+| -------------|-------------|
+| 1-Every entity in the App,Component and Partial must have a directory      | App.js file in the App folder | 
+| 2-Any entity with more than one file must be defined as a Entity Directory(Modular tree structure)     | Except for the js and css file until it doesn't reduce the readability of the project but also helps it      |
+| 3-The set of files and entities that have a specific definition must be defined as a Wrap Directory | Except for cases that include Entity Directory conditions      |
 
 ## Basic Building Blocks
 
