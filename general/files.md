@@ -1,14 +1,11 @@
 # Configuration
 
-
 ## The root folder
 
-- `.eslintrc`: 
+- `.eslintrc`:
   
-- `.babelrc`: 
+- `.babelrc`:
 
 - `.gitignore`: Tells `git` to ignore certain files and folders which don't need to be version controlled, like the build folder.
 
-- `package.json`: 
-
-## 
+- `package.json`:
