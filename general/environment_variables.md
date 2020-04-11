@@ -2,7 +2,7 @@
 
 An environment variable is a dynamic-named value that can affect the way running processes will behave on a app.
 They are part of the environment in which a process runs.
-You can find RSSR environment variable in root directory in 4 diffrent file.
+You can find RSSR environment variable in root directory in 4 different file.
 
 ---
 
