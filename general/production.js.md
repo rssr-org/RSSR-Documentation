@@ -6,8 +6,8 @@ Redirects domains starting with www to non-www and remove slash at the end of UR
     // Redirect from www to non-www and remove slash at the end of URL
     seoOptimization(app);
 
-
 ## `express-rate-limit`
+
 Basic rate-limiting middleware for Express. Use to limit repeated requests to public APIs and/or endpoints such as password reset. [More info](https://www.npmjs.com/package/express-rate-limit)
 
     // limit request numbet

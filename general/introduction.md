@@ -1,19 +1,22 @@
-# RSSA
+# RSSR
 
-# Rule
+## Rule
 
 ## Camel case
+
 Camel case is the practice of writing phrases such that each word or abbreviation in the middle of the phrase begins with a capital letter, with no intervening spaces or punctuation. Common examples include "iPhone" and "eBay".
 
 ### `Note:` We use camcel case to name file and directory in RSSR
+
 ### `Note:` Component style file must be named as camel case in RSSR
 
 ## Pascal Case
+
 PascalCase is a naming convention in which the first letter of each word in a compound word is capitalized
 
 ### `Note:` Component file must be named as pascal case in RSSR
 
-# Tech Stack
+## Tech Stack
 
 Here's a curated list of packages that you should be at least familiar with before starting your awesome project. However, the best way to see a complete list of the dependencies is to check `package.json`
 
@@ -23,24 +26,25 @@ Here's a curated list of packages that you should be at least familiar with befo
 - [ ] [Trim-Redux](https://github.com/ebrahimiaval/trim-redux#readme)
 - [ ] [Express](https://expressjs.com/)
 
-
 ### Linting
 
 - [ ] [ESLint](http://eslint.org/)
 
-
 ## Project Structure
 
 ### `provider/`
+
 This is our starting point, which includes basic settings.
+
 - `provider/server`: As the name suggests, this folder contains development and production server configuration.
     - [`development.js`](./development.js.md): contains development configuration
     - [`production.js`](./production.js.md): contains production configuration
 
 - `provider/webpack`: This folder contains webpack configuration 
 
-- `provider/setup`: 
+- `provider/setup`:Contains methods and additional operations of the provider section 
 
+- `provider/setup`:
 
 ### `public/`
 Here is where all the static files are stored. All the files in this folder will be accessible directly.
@@ -51,11 +55,11 @@ Here is where all the static files are stored. All the files in this folder will
 This is the body of our application. 90% of the expected goals of the app will be defined in this folder.
 - `src/App`:
 - `src/Component`:
-- `src/Partioal`:
+- `src/Partial`:
 - `src/render`:
-   - `Server` 
-   - `Template` 
-   - `client.js` 
+   - `Server`
+   - `Template`
+   - `client.js`
 - `src/setup`:
      - `Style`: this directory contains public styles.
      - `Utility`: this directory contains public javascript functions.
@@ -72,6 +76,7 @@ There are Babel config, ESlint config, environmental variables for different mod
 
 # RSSR Directory
 There are two kind of directories in RSSR.
+
 - [Entity Directory](#entity-directory)
 - [Wrap Directory](#wrap-directory)
 
@@ -84,6 +89,7 @@ It doesn't have Entity directory and isolated with their behavior, in fact to ma
 ### `Note:` Wrap directory can be chaining like partial. It means component folders can be connected together in a graph structure.
 
 ## Special Directory
+
 - [ `__style` Directory](#style-directory)
 - [ `__action` Directory](#action-directory)
 - [ `__component` Directory](#component-directory)
@@ -100,8 +106,16 @@ It doesn't have Entity directory and isolated with their behavior, in fact to ma
 ## `__component` Directory:
 `__component` is used when a component is the same in multiple containers, we can solve the issue by creating `__Component` in the first parent of that directory to handle duplicate component.
 
-## Basic Building Blocks
 
+## Expansion of Entity
+
+| **_Musts_**         | **_Exceptions_**    | 
+| -------------|-------------|
+| 1-Every entity in the App,Component and Partial must have a directory      | App.js file in the App folder | 
+| 2-Any entity with more than one file must be defined as a Entity Directory(Modular tree structure)     | Except for the js and css file until it doesn't reduce the readability of the project but also helps it      |
+| 3-The set of files and entities that have a specific definition must be defined as a Wrap Directory | Except for cases that include Entity Directory conditions      |
+
+## Basic Building Blocks
 
 ### `TrimRedux`
 
