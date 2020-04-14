@@ -5,7 +5,11 @@
  - [`.gitignore`](#gitignore)
  - [`package.json`](#)
 
- 
+
+## The root folder
+
+- `.eslintrc`: Eslint settings which help us code easier and cleaner
+  
   
 ## `.babelrc`: 
  All Babel API [options](https://babeljs.io/docs/en/6.26.3/babel-core#options) except the callbacks are allowed (because .babelrc files are serialized as JSON5). 

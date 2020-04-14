@@ -1,8 +1,7 @@
 # Production Configuration
 
 ## `rssr-seo-optimization`
-
-Redirect domains starting with www to non-www and remove slash at the end of URL for improve SEO [More info](https://github.com/rssr-org/rssr-seo-optimization)
+Redirects domains starting with www to non-www and remove slash at the end of URL for improving SEO [More info](https://github.com/rssr-org/rssr-seo-optimization)
 
     // Redirect from www to non-www and remove slash at the end of URL
     seoOptimization(app);

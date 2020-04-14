@@ -37,8 +37,8 @@ Here's a curated list of packages that you should be at least familiar with befo
 This is our starting point, which includes basic settings.
 
 - `provider/server`: As the name suggests, this folder contains development and production server configuration.
-    - [`development.js`](./development.js.md): contain development configuration
-    - [`production.js`](./production.js.md): contain production configuration
+    - [`development.js`](./development.js.md): contains development configuration
+    - [`production.js`](./production.js.md): contains production configuration
 
 - `provider/webpack`: This folder contains webpack configuration 
 
@@ -47,16 +47,15 @@ This is our starting point, which includes basic settings.
 - `provider/setup`:
 
 ### `public/`
+Here is where all the static files are stored. All the files in this folder will be accessible directly.
 
-Here is where all the static files are stored.
+
 
 ### `src/`
-
-This is the body of our application.
-
+This is the body of our application. 90% of the expected goals of the app will be defined in this folder.
 - `src/App`:
 - `src/Component`:
-- `src/Partioal`:
+- `src/Partial`:
 - `src/render`:
    - `Server`
    - `Template`
@@ -72,26 +71,22 @@ This is the body of our application.
 
 <img src="relationships.png" title="Relationships Between directories" />
 
-### `.bablere, eslintre, .env ...` :
-
-There are Bable confige, ESlint confige, environment variable and ... .
+### `.babelrc, eslintrc, .env ...` : 
+There are Babel config, ESlint config, environmental variables for different modes and ... .
 
 # RSSR Directory
-
-There are two kind of directory in RSSR.
+There are two kind of directories in RSSR.
 
 - [Entity Directory](#entity-directory)
 - [Wrap Directory](#wrap-directory)
 
 ## Entity Directory
-
-An entity directory is any singular, identifiable and separate directory and grow subcomponent like tree structure. ex: home.js, about.js etc.
+An entity directory is any singular, identifiable and separate directory which grow subcomponent in a tree structure. ex: home.js, about.js etc.
 
 ## Wrap Directory
+It doesn't have Entity directory and isolated with their behavior, in fact to make project readable, they can hold different entities inside.
 
-It doesn't have Entity directory and isolated with their behvior, in fact to make project readable, they can hold different entity inside.
-
-### `Note:` Wrap directory can be chaining like partial, component folder can be connected togather inside like graph structure
+### `Note:` Wrap directory can be chaining like partial. It means component folders can be connected together in a graph structure.
 
 ## Special Directory
 
@@ -99,19 +94,18 @@ It doesn't have Entity directory and isolated with their behvior, in fact to mak
 - [ `__action` Directory](#action-directory)
 - [ `__component` Directory](#component-directory)
 
-### `Note:` Two underline give an alert, there is a special case
 
-##  __style Directory:
+### `Note:` Two underline give an alert, shows that there is a special case.
 
-`__style` directory used when two component has common style. it solve this rare issues by creating `__style` in the first parent of that directory to handle duplicate style.
+##  __style Directory: 
+`__style` directory is used when two components have common style. It solves these rare issues by creating `__style` in the first parent of that directory to handle duplicate style.
 
 ## `__action` Directory:
+`__action` directory is used when two components have common action. Create `__action` in the first parent of that directory to handle duplicate action.
 
-`__action` directory used when two component has common action. create `__action` in the first parent of that directory to handle duplicate action.
+## `__component` Directory:
+`__component` is used when a component is the same in multiple containers, we can solve the issue by creating `__Component` in the first parent of that directory to handle duplicate component.
 
-## `__Component` Directory:
-
-`__Component` is used when a component is same in multiple container, we can solve the issue by creating `__Component` in the first parent of that directory to handle duplicate component.
 
 ## Expansion of Entity
 
@@ -125,5 +119,5 @@ It doesn't have Entity directory and isolated with their behvior, in fact to mak
 
 ### `TrimRedux`
 
-trim-redux is a tool for work simplify with the Redux in Reactjs. trim-redux removed reducer, combineReducer and action in redux usage process
-and let you work with redux like react component state!
+trim-redux is a tool for simplifying working with the Redux in Reactjs. Trim-redux removed reducer, combineReducer and action in redux usage process
+and lets you work with redux like react component state!

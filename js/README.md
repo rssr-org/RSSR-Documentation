@@ -1,7 +1,7 @@
 # JavaScript
 
 ## State management
-The RSSR library manage State using Redux. To Enhance redux, we're using trim-redux libaray.
+The RSSR library manages State using Redux. To Enhance redux, we're using trim-redux libaray.
 
 For routing, we use react-router-dom library.
 
