@@ -4,7 +4,7 @@
 Express.js, or simply Express, is a web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js. [`More Info`](https://expressjs.com/)
 
 ## `Express Middleware`
-Express middleware are functions that execute during the lifecycle of a request to the Express server. Each middleware has access to the HTTP request and response for each route (or path) it's attached to. In fact, Express itself is compromised wholly of middleware functions. [`More Info`](https://expressjs.com/en/guide/writing-middleware.html)
+Express middleware are functions that are executed during the lifecycle of a request to the Express server. Each middleware has access to the HTTP request and response for each route (or path) it's attached to. In fact, Express itself is compromised wholly of middleware functions. [`More Info`](https://expressjs.com/en/guide/writing-middleware.html)
 
     // make express server
     const app = express();
@@ -19,13 +19,13 @@ Parse Cookie header and populate req.cookies with an object keyed by the cookie 
     app.use(cookieParser())
 
 ## `webpack`
-webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included. webpack takes modules with dependencies and generates static assets representing those modules. [`More info`](https://webpack.js.org/)
+webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included. Webpack takes modules with dependencies and generates static assets representing those modules. [`More info`](https://webpack.js.org/)
 
     // create webpack compiler
     const compiler = webpack(config);
 
 ## `webpackDevMiddleware`
-An express-style development middleware for use with webpack bundles and allows for serving of the files emitted from webpack. This should be used for development only.
+An express-style development middleware for using with webpack bundles and allows serving of the files emitted from webpack. This should be used for development only.
 
     // make bundled project source files accessable from memory
     app.use(webpackDevMiddleware(compiler, {
@@ -34,8 +34,8 @@ An express-style development middleware for use with webpack bundles and allows 
     }));
 
 
-Some of the benefits of using this middleware include:
-- No files are written to disk, rather it handles files in memory
+Some of the benefits of using this middleware are as follow:
+- No files are written to disk, rather it handles files in memory.
 - If files changed in watch mode, the middleware delays requests until compiling has completed.
 - Supports hot module reload (HMR).
 
