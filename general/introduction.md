@@ -109,7 +109,7 @@ It doesn't have Entity directory and isolated with their behavior, in fact to ma
 
 ## Expansion of Entity
 
-| **_Musts_**         | **_Exceptions_**    | 
+| **_Dos_**         | **_Exceptions_**    | 
 | -------------|-------------|
 | 1-Every entity in the App,Component and Partial must have a directory      | App.js file in the App folder | 
 | 2-Any entity with more than one file must be defined as a Entity Directory(Modular tree structure)     | Except for the js and css file until it doesn't reduce the readability of the project but also helps it      |

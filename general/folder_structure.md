@@ -15,4 +15,9 @@ This folder includes the following sections:
 ### public
 In this folder static files like images, videos, etc will be save
 ### src
-This folder contains web application's source code.
+This folder contains web application's source code and includes following folders:
+ - **render**:the starting point is the src section, the basic configs are in this section.
+ - **App**: Includes standalone entities that can cover a full view of the site and connect to the site's routing.
+ -  **component**: components that do not meet the app directory requirements and are shared between several containers.
+ - **partial**: there are tools ,this directory contains react entities.
+ - **setup**: general settings and structures include the src section.
