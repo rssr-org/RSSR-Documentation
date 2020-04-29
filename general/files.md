@@ -3,6 +3,7 @@
  - [`.eslintrc`](#)
  - [`.babelrc`](#babelrc)
  - [`.gitignore`](#gitignore)
+ - [`.env*`](./environment_variables)
  - [`package.json`](#)
 
 
@@ -26,4 +27,3 @@
 
  ## `.gitignore`: 
    Tells `git` to ignore certain files and folders which don't need to be version controlled, like the build folder.
-

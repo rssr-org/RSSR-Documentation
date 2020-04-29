@@ -54,6 +54,10 @@ This module is only concerned with the mechanisms to connect a browser client to
 
 Webpack Hot Server Middleware is designed to be used in conjunction with webpack-dev-middleware (and optionally webpack-hot-middleware) to hot update Webpack bundles on the server.
 
+Webpack Hot Server Middleware is very similar to the nodemon package in the nodejs.
+
+The difference is that the nodemon ,run nodejs's web server from the beginning but Webpack Hot Server Middleware starts from the root file defined in the compiler and only refreshes the part that has changed.
+
     // hot update Webpack bundles on the server
     app.use(webpackHotServerMiddleware(compiler));
 
