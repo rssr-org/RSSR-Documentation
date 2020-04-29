@@ -70,7 +70,6 @@ In the real project you must remove fakeApi.
   - [Introduction](general/introduction.md)
   - [Tool Configuration](general/files.md)
   - [Environment Variables](general/environment_variables.md)
-- [CSS](css/README.md)
 - [JS](js/README.md)
   - [Trim-Redux](./trim-redux.md)
   - [Routing](./routing.md)
