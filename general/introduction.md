@@ -1,20 +1,12 @@
 # RSSR
 
-## Rule
+## File And Directory Rules
 
-## Camel case
+Naming files and directories is [`CamelCase`](https://en.wikipedia.org/wiki/Camel_case), except for the names of the files and directories that have the component type of react that is [`PascalCase`](https://techterms.com/definition/pascalcase).
 
-Camel case is the practice of writing phrases such that each word or abbreviation in the middle of the phrase begins with a capital letter, with no intervening spaces or punctuation. Common examples include "iPhone" and "eBay".
-
-### `Note:` We use camcel case to name file and directory in RSSR
 
 ### `Note:` Component style file must be named as camel case in RSSR
-
-## Pascal Case
-
-PascalCase is a naming convention in which the first letter of each word in a compound word is capitalized
-
-### `Note:` Component file must be named as pascal case in RSSR
+### `Note:` Component file (like HOCs) must be named as pascal case in RSSR
 
 ## Tech Stack
 

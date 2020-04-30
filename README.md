@@ -1,6 +1,8 @@
 
 # Documentation
-Document of RSSR (React Server Side Rendering) boilerplate. 
+"We are no better than no one, We are not in competition with anyone, We want to be the best version of ourselves."
+
+welcome. this is documentation of RSSR (React Server Side Rendering) Boilerplate. 
 
 <div>
   <a href="https://github.com/rssr-org/RSSR">
