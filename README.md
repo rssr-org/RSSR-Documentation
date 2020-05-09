@@ -50,4 +50,5 @@ If you run your RSSR app with [PM2](https://www.npmjs.com/package/pm2), you can 
 ```shell
 npm run up
 ```
-**Read More: [Getting Started](Getting-Started)**
+**Read More: [Getting Started](Getting-Started)**<br/>
+**Read Everything About RSSR: [Documentation](Document)**
