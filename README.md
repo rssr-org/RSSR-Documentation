@@ -8,10 +8,10 @@
 
 ## Features
 - SSR (Server Side Rendering)
-- User Authentication Structure
+- User authentication structure
 - SEO optimization utilities
 - SCSS Style Namespace
-- and more …
+- and more…
 ___
 ## Installation
 _NOTE: Make sure that you have **Node.js ^10.13.0** and **npm ^6** installed._
@@ -26,18 +26,18 @@ cd <YOUR_PROJECT_NAME>
 npm install
 ```
 ___
-## Usage Tips
+## Usage tips
 
-### Run in Development Mode
+### Run in development mode
 ```shell
 npm run dev
 ```
-### Run in Production Mode
+### Run in production mode
 1. Create `/dist` directory, that contains the builded of your RSSR app
 ```shell
 npm run build
 ```
-2. Run the Builded RSSR app<br/>
+2. Run the builded RSSR app<br/>
 _NOTE: For running your RSSR app, you have two Predetermined ways.You can modify these latter by yourself._
 ```shell
 npm run start
@@ -50,5 +50,5 @@ If you run your RSSR app with [PM2](https://www.npmjs.com/package/pm2), you can 
 ```shell
 npm run up
 ```
-**Read More: [Getting Started](Getting-Started)**<br/>
-**Read Everything About RSSR: [Documentation](Document)**
+**Read more: [Getting Started](Getting-Started)**<br/>
+**Read everything about RSSR: [Documentation](Document)**
