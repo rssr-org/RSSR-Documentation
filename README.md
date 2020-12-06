@@ -27,6 +27,10 @@ npm install
 ```
 ___
 ## Usage tips
+### Remove Fake API
+We connected the Fake-API to the RSSR so you can see how it actually works.
+
+after clone see `help.txt` file in `~/FakeApi` directory.
 
 ### Run in development mode
 ```shell
